@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flower Example</title>
+    <style>
+        .Flower {
+            width: 100px;
+            height: 100px;
+            background: pink;
+            position: relative;
+        }
+
+        .Flower:after{
+    content:  "";
+    position: absolute ;
+    height: 15px;
+    width: 250px;
+    background: #a52a2a;
+    top: 100%;
+    left: -13% ;
+}
+    </style>
+</head>
+<body>
+    <div class="Flower"></div>
+</body>
+</html>
